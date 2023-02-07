@@ -1,0 +1,12 @@
+.navbar {
+    padding: 30px;
+    box-shadow: 0 1px 20px rgba(56, 40, 40, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    color: #ffffff;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    
+  }

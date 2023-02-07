@@ -1,0 +1,84 @@
+body {
+  position: relative;
+}
+.editable {
+  width: 100%;
+  
+}
+
+.editable p{
+  text-align: left;
+}
+.editable p i{
+  float: right;
+  padding-top: 7px;
+}
+.editable_display {
+  padding: 6px 12px;
+  border-radius: 3px;
+  background-color: #eee;
+  color: #000;
+  cursor: pointer;
+  width: fit-content;
+  transition: 200ms;
+  
+}
+
+.editable_display:hover {
+  background-color: #ddd;
+}
+
+.editable_edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.broad_add-card{
+  text-align: left;
+}
+.editable_edit input {
+  border: 2px solid #0079bf;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.editable_edit_footer {
+  display: flex;
+  gap: 5px;
+  align-items: left;
+  text-align: left;
+}
+
+.editable_edit_footer button {
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  background-color: #0079bf;
+  color: #fff;
+  border: none;
+  transition: 100ms ease;
+  padding: 7px;
+  width: 100px;
+}
+.editable_edit_footer button:hover {
+  background-color: #046daa;
+}
+
+.editable_edit_footer button:active {
+  transform: translateY(2px);
+}
+
+.editable_edit_footer .closeIcon {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
+.board {
+  margin-top: 80px;
+}
+.app_boards_last {
+  position: absolute;
+}

@@ -1,0 +1,8 @@
+body {
+    position: relative;
+}
+.box {
+    position: absolute;
+    top: 200px;
+    overflow: visible;
+}
